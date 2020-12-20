@@ -1,0 +1,307 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.maincontainer{
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+    
+    "background1"
+    "background2"
+    "background3"
+    "background4"
+    
+    ;
+}
+
+#background1{
+    grid-area: background1;
+    
+}
+
+#background2{
+    grid-area: background2;
+}
+
+#background3{
+    grid-area: background3;
+}
+
+#background4{
+    grid-area: background4;
+}
+
+.back1{
+    /* height: 56rem; */
+    background-image: url("http://roleplayonline.de/img/head01.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.back2{
+    /* height: 59rem; */
+    background-image: url("http://roleplayonline.de/img/gtawood.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.back3{
+    height: 50rem;
+    background-image: url("https://roleplayonline.de/img/chouse.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.back4{
+    height: 50rem;
+    background-image: url("https://roleplayonline.de/img/sunsetgta5.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+nav{
+    display: flex;
+    position: fixed;
+    width: 100%;
+    height: 4rem;
+    background-color: black;
+    justify-content: space-between;
+}
+
+.h2nav{
+    padding-left: 30px;
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+    padding-top: 15px;
+}
+.menuclass{
+    display: inline-block;
+    padding-right: 60px;
+    padding-top: 20px;
+    
+   
+}
+
+.menuclass a{
+    color: white;
+    padding-left: 30px;
+}
+.menuclass a:hover{
+    color: purple;
+    text-decoration: none;
+    transition: 1s;
+}
+
+.back1_container{
+    padding-top:70px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* border: 1px solid wheat; */
+    
+}
+
+.back1_items{
+    /* border: 1px solid darkorange; */
+    
+}
+
+.back1_items1{
+    margin-top: 50px;
+    flex-basis: 70%;
+}
+
+.back1_items2{
+    margin-top: 50px;
+    flex-basis: 30%;
+}
+
+
+.back1_items3{
+    flex-basis: 100%;
+    height: 23rem;
+    background-color: #161616;
+}
+
+.p1{
+    width: 60%;
+    padding-left: 10rem;
+}
+
+.t1{
+    font-weight: bolder;
+}
+.colort{
+    color: white;
+    padding-left: 10rem;
+}
+
+.b1{
+    margin-left: 10rem;
+}
+
+.back2_container{
+    display: flex;
+}
+
+
+
+.back2_container{
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid wheat;  */
+}
+
+.back2_items{
+    /* border: 1px solid darkorange; */
+}
+
+.back2_item{
+    display: flex;
+    justify-content: center;
+}
+
+.h2back2{
+    
+    font-family: "Jost", sans-serif;
+    font-weight: bold;
+    color: white;
+    width: 70%;
+    text-align: center;
+    padding-top: 30px;
+    padding: 10px;
+}
+
+.h2back2titr{
+    
+    font-family: "Jost", sans-serif;
+    font-weight: bold;
+    color: white;
+    width: 70%;
+    text-align: center;
+    margin-top: 50px;
+    padding: 10px;
+    font-style: italic;
+}
+
+.card-containet{
+    display: flex;
+    /* border: 1px solid red; */
+    justify-content: center;
+
+}
+
+.card-items{
+    /* border: 1px solid yellow; */
+    margin: 30px;
+}
+
+
+.kadr{
+    height: 300px;
+    background-color: rgba(0, 0, 0, 0.555);
+    width: 250px;
+   
+    
+}
+
+
+.pback2{
+    color: rgb(212, 208, 208);
+    padding-left: 10px;
+}
+
+.mitte_back2{
+    height: 30rem;
+     background-color: #161616;
+}
+
+.container_back3{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.h1back3{
+    padding-top: 50px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.flexinner{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.flexleft{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.inneritems{
+    margin: 30px;
+}
+
+.h3back3{
+    padding-top: 60px;
+    color: white;
+    font-weight: bold;
+    width: 60%;
+    font-style: italic;
+}
+
+.colorrgb{
+    background-color: rgba(0, 0, 0, 0.336);
+    color: white;
+}
+
+.colorrgb2{
+    color: white;
+}
+
+.sizecollaps{
+    width: 500px;
+}
+
+.mitte_back3{
+    height: 20rem;
+     background-color: #161616;
+}
+
+.back4container{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.back4items{
+    margin: 30px;
+}
+
+.card_back3{
+    background-color:rgba(0, 0, 0, 0.288);
+}
+
+.kadr_img{
+    border-radius: 100%;
+}
+
+.mitte_back4{
+    height: 10rem;
+     background-color: #161616;
+}
+
+
