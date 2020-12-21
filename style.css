@@ -304,4 +304,25 @@ nav{
      background-color: #161616;
 }
 
+.card-items h3:hover {
+    color: purple;
+    transition: 1s
+}
 
+.card-items p:hover {
+    transform: scale(1.03); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    transition: 1s;
+    color: purple;
+}
+
+.card-items p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.insta {
+    margin: 200px;
+}
+
+.colort h1:hover {
+    color: purple;
+}
